@@ -23,3 +23,8 @@
 .extra-note:before{content:"";position:absolute;left:7px;top:4px;width:20px;height:26px;border:1px solid currentColor;background:linear-gradient(to bottom,transparent 0 9px,#b47b7855 9px 10px,transparent 10px 15px,#b47b7855 15px 16px,transparent 16px)}
 .feature-flower{width:130px;height:130px;font-size:0}
 @media(max-width:650px){.menu{display:flex}.brand-mark{width:32px;height:32px}.art-flower{width:115px;height:115px}.extra-icon{width:28px;height:28px;flex-basis:28px}}
+
+/* Flecha de acción dibujada en CSS, no como carácter del sistema */
+.product-bottom button{display:inline-flex;align-items:center;gap:8px}
+.product-bottom button:after{content:"";width:7px;height:7px;border-top:1px solid currentColor;border-right:1px solid currentColor;transform:rotate(45deg);display:inline-block;transition:transform .2s}
+.product-bottom button:hover:after{transform:translateX(3px) rotate(45deg)}
