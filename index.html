@@ -1,157 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#f7f1ed">
-  <meta name="description" content="FLORELLE MR. — La felicidad también se regala. Ramos florales para momentos especiales en Cartagena.">
-  <title>FLORELLE MR. | La felicidad también se regala</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#fff">
+<meta name="description" content="FLORELLE MR. — La felicidad también se regala. Diseños florales en Cartagena, Colombia.">
+<title>FLORELLE MR. | La felicidad también se regala</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="announcement">DETALLES QUE SE CONVIERTEN EN RECUERDOS · CARTAGENA, COLOMBIA</div>
-  <header class="site-header">
-    <a class="brand" href="#inicio" aria-label="FLORELLE MR. Inicio">
-      <span class="brand-flower">✿</span>
-      <span class="brand-name">FLORELLE <small>MR.</small></span>
-      <span class="brand-tagline">LA FELICIDAD TAMBIÉN SE REGALA</span>
-    </a>
-    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
-    <nav id="mainNav">
-      <a href="#inicio">Inicio</a>
-      <a href="#catalogo">Catálogo</a>
-      <a href="#personaliza">Personaliza</a>
-      <a href="#como-comprar">Cómo comprar</a>
-      <a href="#reservar">Reservar</a>
-    </nav>
-    <a class="header-cta" href="#catalogo">Descubrir ramos <span>↗</span></a>
-  </header>
-
-  <main>
-    <section class="hero" id="inicio">
-      <div class="hero-copy">
-        <p class="eyebrow"><span></span> FLORES PARA SENTIR, REGALAR Y RECORDAR</p>
-        <h1>La belleza de<br>decirlo con <em>flores.</em></h1>
-        <p class="hero-description">Hay momentos que merecen algo extraordinario. Encuentra ese ramo especial y haz que alguien sonría.</p>
-        <div class="hero-actions">
-          <a class="button button-dark" href="#catalogo">Explorar colección <span>→</span></a>
-          <a class="text-link" href="#como-comprar">Conoce cómo comprar</a>
-        </div>
-        <div class="hero-note"><span class="note-line"></span><span>Hecho con intención, entregado con cariño.</span></div>
-      </div>
-      <div class="hero-visual">
-        <div class="hero-image"></div>
-        <div class="hero-stamp"><span>FLORELLE</span><b>✿</b><span>PARA TI</span></div>
-        <div class="hero-caption">UN DETALLE QUE HABLA POR TI <span>✳</span></div>
-      </div>
-      <div class="hero-index">01 / 04</div>
-    </section>
-
-    <section class="intro-strip">
-      <span>PEQUEÑOS DETALLES</span><i>✳</i><span>GRANDES EMOCIONES</span><i>✳</i><span>FLORES CON SIGNIFICADO</span>
-    </section>
-
-    <section class="section collection" id="catalogo">
-      <div class="section-heading">
-        <div><p class="eyebrow">UNA COLECCIÓN PARA CADA SENTIMIENTO</p><h2>Encuentra tu <em>favorito.</em></h2></div>
-        <p class="section-sidecopy">Cada ramo tiene su propia manera de decir lo que a veces las palabras no pueden.</p>
-      </div>
-      <div class="catalog-tools">
-        <div class="filters" id="filters">
-          <button class="filter active" data-filter="todos">Todos</button>
-          <button class="filter" data-filter="favoritos">Más vendidos</button>
-          <button class="filter" data-filter="rosas">Rosas</button>
-          <button class="filter" data-filter="especiales">Especiales</button>
-        </div>
-        <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Buscar un ramo..." aria-label="Buscar productos"></label>
-      </div>
-      <div class="product-grid" id="productGrid"></div>
-      <p class="catalog-footnote">Precios expresados en pesos colombianos (COP). La disponibilidad y personalización se confirman al solicitar tu reserva.</p>
-    </section>
-
-    <section class="editorial" id="personaliza">
-      <div class="editorial-photo"></div>
-      <div class="editorial-copy">
-        <p class="eyebrow">UN RAMO, TU PROPIA HISTORIA</p>
-        <h2>Un detalle tan único<br>como <em>esa persona.</em></h2>
-        <p>¿Tienes una idea en mente? En FLORELLE MR. puedes personalizar algunos de nuestros ramos. Elige tus colores favoritos o comparte una referencia y revisaremos cómo hacerla realidad.</p>
-        <a href="#reservar" class="button button-outline">Solicitar personalización <span>→</span></a>
-        <span class="editorial-flower">✿</span>
-      </div>
-    </section>
-
-    <section class="steps-section" id="como-comprar">
-      <div class="section-heading centered">
-        <div><p class="eyebrow">SENCILLO, ESPECIAL Y SIN COMPLICACIONES</p><h2>Tu ramo, en <em>tres pasos.</em></h2></div>
-      </div>
-      <div class="steps-grid">
-        <article class="step"><span class="step-number">01</span><div class="step-icon">✿</div><h3>Elige tu favorito</h3><p>Explora el catálogo, selecciona tu ramo y cuéntanos si deseas personalizarlo.</p></article>
-        <article class="step"><span class="step-number">02</span><div class="step-icon">♡</div><h3>Confirma tu reserva</h3><p>Separa tu pedido con el 50% del valor del ramo. La reserva requiere mínimo 2 días de anticipación.</p></article>
-        <article class="step"><span class="step-number">03</span><div class="step-icon">✧</div><h3>Recibe felicidad</h3><p>El día de la entrega pagas el 50% restante del ramo más el costo del domicilio.</p></article>
-      </div>
-      <div class="payment-note"><span>✳</span><p><strong>Ten en cuenta:</strong> el domicilio depende de la ubicación. El valor se confirma antes de finalizar la reserva. Los anticipos no son reembolsables en cancelaciones de último momento, según la política del negocio.</p></div>
-    </section>
-
-    <section class="reservation-section" id="reservar">
-      <div class="reservation-intro">
-        <p class="eyebrow">HAGAMOS QUE SU DÍA SEA ESPECIAL</p>
-        <h2>Tu próximo detalle<br>comienza <em>aquí.</em></h2>
-        <p>Cuéntanos qué ramo te gustaría regalar. Revisaremos la disponibilidad y nos pondremos en contacto contigo para confirmar los detalles.</p>
-        <div class="reservation-hours"><span>HORARIO DE ATENCIÓN</span><strong>Lunes a sábado · 7:00 a. m. – 8:00 p. m.</strong></div>
-        <div class="reservation-hours"><span>ANTICIPACIÓN MÍNIMA</span><strong>2 días antes de la entrega</strong></div>
-      </div>
-      <form class="reservation-form" id="reservationForm">
-        <div class="form-title"><span>FORMULARIO DE RESERVA</span><i>✳</i></div>
-        <div class="form-row">
-          <label>Tu nombre<input name="name" required placeholder="Nombre completo"></label>
-          <label>Correo electrónico<input name="email" type="email" required placeholder="tucorreo@email.com"></label>
-        </div>
-        <div class="form-row">
-          <label>Ramo de interés<select name="product" id="productSelect" required><option value="">Selecciona un ramo</option></select></label>
-          <label>¿Cuántos deseas?<input name="quantity" type="number" min="1" max="20" value="1" required></label>
-        </div>
-        <div class="form-row">
-          <label>Fecha deseada<input name="date" id="deliveryDate" type="date" required></label>
-          <label>Horario preferido<select name="time" required><option value="">Selecciona horario</option><option>7:00 a. m. – 10:00 a. m.</option><option>10:00 a. m. – 1:00 p. m.</option><option>1:00 p. m. – 4:00 p. m.</option><option>4:00 p. m. – 8:00 p. m.</option></select></label>
-        </div>
-        <label>Dirección o zona de entrega<textarea name="address" rows="2" required placeholder="Barrio, dirección o punto de referencia en Cartagena"></textarea></label>
-        <label>¿Deseas personalizar tu ramo?<select name="custom"><option>No, deseo el diseño del catálogo</option><option>Sí, quiero consultar una personalización</option></select></label>
-        <label>Cuéntanos algún detalle adicional<textarea name="notes" rows="2" placeholder="Colores, ocasión, mensaje para la tarjeta..."></textarea></label>
-        <div class="form-consent"><input type="checkbox" required id="consent"><label for="consent">Acepto que FLORELLE MR. revise mi solicitud y confirme disponibilidad, precio final y domicilio.</label></div>
-        <button class="button button-dark form-submit" type="submit">Preparar solicitud <span>→</span></button>
-        <p class="form-disclaimer">Esta es una vista previa funcional. La solicitud no se envía todavía al negocio hasta conectar el sistema de reservas.</p>
-        <div class="form-result" id="formResult" aria-live="polite"></div>
-      </form>
-    </section>
-
-    <section class="payment-placeholder" id="pagos">
-      <div class="payment-orbit">✳</div>
-      <p class="eyebrow">PRÓXIMAMENTE</p>
-      <h2>Una forma más fácil<br>de <em>hacerlo especial.</em></h2>
-      <div class="payment-box"><span class="payment-icon">▣</span><strong>Aquí se implementará el sistema de pago en línea</strong><small>Estamos preparando este espacio para una futura integración de pagos seguros.</small></div>
-    </section>
-
-    <section class="social-section">
-      <p class="eyebrow">SÍGUENOS E INSPÍRATE</p>
-      <h2>Un poco más de <em>FLORELLE.</em></h2>
-      <p>Descubre nuestras creaciones, novedades y detalles florales.</p>
-      <div class="social-links">
-        <a href="https://www.instagram.com/florelle.mr/" target="_blank" rel="noopener">Instagram <span>↗</span></a>
-        <a href="https://www.tiktok.com/@florelle.mr" target="_blank" rel="noopener">TikTok <span>↗</span></a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <a class="brand footer-brand" href="#inicio"><span class="brand-flower">✿</span><span class="brand-name">FLORELLE <small>MR.</small></span><span class="brand-tagline">LA FELICIDAD TAMBIÉN SE REGALA</span></a>
-    <span>Cartagena, Colombia</span>
-    <span>© <span id="year"></span> FLORELLE MR. · Todos los derechos reservados</span>
-    <a href="#inicio" class="back-top">VOLVER ARRIBA ↑</a>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+<div class="announcement">CARTAGENA, COLOMBIA <span>✳</span> DETALLES QUE ENAMORAN</div>
+<header class="header"><a class="brand" href="#inicio"><span class="flower">✳</span><span>FLORELLE <b>MR.</b><small>LA FELICIDAD TAMBIÉN SE REGALA</small></span></a>
+<button class="menu" id="menu" aria-label="Abrir menú">☰</button>
+<nav id="nav"><a href="#catalogo">Catálogo</a><a href="#quince">Quinceañeras</a><a href="#adicionales">Adicionales</a><a href="#pedido">Pedidos</a></nav>
+<a class="nav-button" href="#pedido">Hacer pedido ↗</a></header>
+<main>
+<section class="hero" id="inicio"><div class="hero-copy"><p class="eyebrow">FLORES PARA REGALAR MOMENTOS</p><h1>La felicidad<br>también se <i>regala.</i></h1><p class="lead">Un detalle pensado para emocionar. Encuentra el diseño ideal para sorprender a alguien especial.</p><div class="hero-actions"><a class="button dark" href="#catalogo">Descubrir diseños ↗</a><a class="text-link" href="#como-comprar">Cómo hacer tu pedido</a></div><p class="hero-note">DISEÑOS FLORALES · CARTAGENA</p></div>
+<div class="hero-art"><div class="art-frame"><div class="art-flower">✿</div><div class="art-script">un detalle<br>inolvidable</div><div class="art-caption">FLORELLE MR. <span>—</span> CARTAGENA</div></div><div class="art-stamp">LA FELICIDAD<br>TAMBIÉN SE REGALA</div></div></section>
+<div class="ribbon"><span>HECHO PARA SORPRENDER</span> ✳ <span>UN DETALLE INOLVIDABLE</span> ✳ <span>LA FELICIDAD TAMBIÉN SE REGALA</span></div>
+<section class="section" id="catalogo"><div class="section-title"><div><p class="eyebrow">NUESTROS DISEÑOS</p><h2>Ramos <i>que enamoran.</i></h2></div><p>Consulta los diseños y precios del catálogo. Selecciona tu favorito para preparar una solicitud de pedido.</p></div>
+<div class="catalog-tools"><div class="filters" id="filters"><button class="selected" data-filter="todos">Todos</button><button data-filter="destacados">Más vendidos</button><button data-filter="rosas">Rosas</button><button data-filter="especiales">Especiales</button></div><input id="search" type="search" placeholder="Buscar diseño..."></div>
+<div class="product-grid" id="products"></div><p class="note">Precios expresados en pesos colombianos (COP). El domicilio se cotiza según la ubicación de entrega.</p></section>
+<section class="feature"><div class="feature-art"><span>FLORELLE</span><strong>✿</strong><em>hecho con amor</em></div><div class="feature-copy"><p class="eyebrow">UN DISEÑO A TU ESTILO</p><h2>Hazlo tuyo.<br><i>Hazlo especial.</i></h2><p>Algunos diseños permiten personalizar sus colores. Puedes indicarlo en el formulario y compartir una imagen de referencia para consultar si es posible realizarla.</p><a class="button outline" href="#pedido">Consultar personalización ↗</a></div></section>
+<section class="section" id="quince"><div class="section-title"><div><p class="eyebrow">MOMENTOS QUE MERECEN BRILLAR</p><h2>Bouquets de <i>quinceañera.</i></h2></div><p>Diseños especiales para acompañar una celebración inolvidable.</p></div><div class="product-grid" id="quince-products"></div></section>
+<section class="section extras" id="adicionales"><div class="section-title"><div><p class="eyebrow">PERSONALIZA TU DETALLE</p><h2>Los <i>adicionales.</i></h2></div><p>Complementos disponibles según el catálogo de FLORELLE MR.</p></div><div class="extra-grid">
+<article><span class="extra-icon">✧</span><div><h3>Mariposas</h3><p>Dorado, plateado y oro rosa</p><b>2 × $1.000</b></div></article>
+<article><span class="extra-icon">☼</span><div><h3>Luces</h3><p>Luz fría o luz cálida</p><b>$6.000</b></div></article>
+<article><span class="extra-icon">♕</span><div><h3>Tiaras</h3><p>Complemento decorativo</p><b>$13.000</b></div></article>
+<article><span class="extra-icon">♡</span><div><h3>Notas</h3><p>Nota impresa + porta tarjeta</p><b>$1.000</b></div></article>
+</div></section>
+<section class="section process" id="como-comprar"><div class="center"><p class="eyebrow">TU PROCESO DE COMPRA</p><h2>Un detalle especial,<br><i>paso a paso.</i></h2></div><div class="steps">
+<article><span>01</span><h3>Elige tu diseño</h3><p>Explora el catálogo y selecciona el ramo que quieres regalar.</p></article>
+<article><span>02</span><h3>Agenda con tiempo</h3><p>Se requiere un mínimo de 2 días de anticipación y un anticipo del 50% para agendar.</p></article>
+<article><span>03</span><h3>Define la entrega</h3><p>Entregas en Cartagena. El domicilio depende de la ubicación; también puedes recoger tu pedido.</p></article>
+<article><span>04</span><h3>Recibe tu detalle</h3><p>El 50% restante y el domicilio se pagan el día de la entrega.</p></article></div>
+<div class="policy"><b>Información importante</b><p>El anticipo corresponde al 50% del valor del pedido. El saldo restante y el costo del domicilio, si aplica, se pagan el día de la entrega. El anticipo no es reembolsable en caso de cancelación de última hora. Medio de pago informado: Nequi.</p></div></section>
+<section class="order-section" id="pedido"><div class="order-intro"><p class="eyebrow">¿ENCONTRASTE TU FAVORITO?</p><h2>Prepara tu <i>pedido.</i></h2><p>Completa tus datos para generar una solicitud con el resumen de tu pedido. El equipo de FLORELLE MR. debe confirmar disponibilidad, personalización y costo de domicilio.</p><div class="info"><small>HORARIO</small><b>Lunes a sábado · 7:00 a. m. – 8:00 p. m.</b></div><div class="info"><small>ANTICIPACIÓN</small><b>Mínimo 2 días antes de la entrega</b></div><div class="info"><small>PAGO</small><b>Nequi · anticipo del 50%</b></div></div>
+<form id="order-form" class="order-form"><div class="form-heading"><span>FORMULARIO DE PEDIDO</span><span>FLORELLE MR.</span></div><div class="form-grid">
+<label>Nombre completo<input name="nombre" required placeholder="Tu nombre"></label><label>Correo electrónico<input name="correo" type="email" required placeholder="correo@ejemplo.com"></label>
+<label>Diseño<select name="producto" id="producto" required><option value="">Selecciona un diseño</option></select></label><label>Cantidad<input name="cantidad" type="number" min="1" max="20" value="1" required></label>
+<label>Fecha deseada<input name="fecha" id="fecha" type="date" required></label><label>Hora preferida<select name="hora" required><option value="">Selecciona</option><option>7:00 a. m. – 10:00 a. m.</option><option>10:00 a. m. – 1:00 p. m.</option><option>1:00 p. m. – 4:00 p. m.</option><option>4:00 p. m. – 8:00 p. m.</option></select></label></div>
+<fieldset><legend>Tipo de entrega</legend><label class="inline"><input type="radio" name="entrega" value="Recoger pedido" checked> Recoger pedido</label><label class="inline"><input type="radio" name="entrega" value="Domicilio en Cartagena"> Domicilio en Cartagena</label></fieldset>
+<label id="address-wrap" class="hidden">Dirección o barrio<input name="direccion" placeholder="Barrio, dirección o referencia"></label>
+<div class="addons"><p>ADICIONALES</p><label class="inline"><input type="checkbox" name="mariposas" value="1000"> Mariposas · 2 × $1.000</label><label class="inline"><input type="checkbox" name="luces" value="6000"> Luces · $6.000</label><label class="inline"><input type="checkbox" name="tiara" value="13000"> Tiara · $13.000</label><label class="inline"><input type="checkbox" name="nota" value="1000"> Nota impresa + porta tarjeta · $1.000</label></div>
+<label>Personalización<select name="personalizacion"><option>No, deseo el diseño del catálogo</option><option>Sí, quiero consultar colores</option><option>Tengo una imagen de referencia</option></select></label>
+<label>Detalles adicionales<textarea name="detalles" rows="3" placeholder="Colores, ocasión, dedicatoria..."></textarea></label>
+<div class="estimate" id="estimate">Selecciona un diseño para calcular el valor estimado.</div>
+<label class="consent"><input type="checkbox" required> Entiendo que esta solicitud no confirma automáticamente la reserva. FLORELLE MR. debe confirmar los detalles y el anticipo.</label>
+<button class="button dark submit" type="submit">Preparar solicitud por correo ↗</button><p class="disclaimer">Se abrirá un correo prellenado a FLORELLE MR. No se realiza ningún cobro ni se confirma una reserva desde esta página.</p><p id="status" class="status" aria-live="polite"></p></form></section>
+<section class="social"><p class="eyebrow">ENCUENTRA MÁS INSPIRACIÓN</p><h2>FLORELLE <i>MR.</i></h2><p>Síguenos para descubrir nuestras creaciones.</p><div><a href="https://www.instagram.com/florelle.mr/" target="_blank" rel="noopener">Instagram ↗</a><a href="https://www.tiktok.com/@florelle.mr" target="_blank" rel="noopener">TikTok ↗</a></div></section>
+</main><footer><a class="brand footer-brand" href="#inicio"><span class="flower">✳</span><span>FLORELLE <b>MR.</b><small>LA FELICIDAD TAMBIÉN SE REGALA</small></span></a><span>Cartagena, Colombia</span><span>© 2026 FLORELLE MR.</span><a href="#inicio">VOLVER ARRIBA ↑</a></footer>
+<script src="script.js"></script></body></html>
